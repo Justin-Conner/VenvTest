@@ -3,7 +3,7 @@ import smtplib
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 email_address = 'ohmlotusphoenix@gmail.com'
-email_password = 'qppo avrp uulc kvdw'
+email_password = 'password goes here'
 
 with smtplib.SMTP(smtp_server, smtp_port) as server:
     server.starttls()
